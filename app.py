@@ -22,6 +22,6 @@ async def recognize_plate(image: UploadFile = File(...)):
     return {"area": result.area, "number": result.number}
 
 
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run("app:app", host="127.0.0.1", port=8010, reload=True)
+# if __name__ == "__main__":
+#     import uvicorn
+#     uvicorn.run("app:app", host="127.0.0.1", port=8010, reload=True)
